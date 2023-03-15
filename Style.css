@@ -1,0 +1,583 @@
+body{
+    font-family: 'Battambang', cursive;
+}
+div,h1,p{
+   box-sizing: border-box;
+   font-family: 'Bayon', sans-serif;
+   font-family: 'Hanuman', serif;
+}
+ul,h1,p,h2{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.img-box{
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav-bar{
+    background-color:black;
+    padding: 15px;
+}
+.logo img{
+    height: 80px;
+}
+.ads img{
+    height: 80px;
+    float: right;
+}
+.menu-box{
+    width: 100%;
+    float: left;
+}
+.menu-box ul{
+    list-style-type: none;
+}
+.menu-box ul li{
+    float: left;
+}
+.menu-box ul li a{
+    display: block;
+    padding: 20px;
+    font-family: 'Bayon', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.menu-box ul li a:hover{
+    color: black;
+
+}
+.menu-bar {
+    display: none;
+    overflow: hidden;
+}
+.slide-container{
+    padding-left: 0;
+}
+.feature, .right-ads{
+    /* background-color: chartreuse; */
+    /* float: left; */
+}
+.container .feature{
+    height: 500px;
+}
+.container .right-ads{
+    float: left;
+}
+.feature .mean-description{
+    width: 55%;
+    height: 50%;
+    float: left;
+    background-color: black;
+}
+.feature .mean-description-right{
+    width: 45%;
+    height: 50%;
+    float: left;
+    background-color: cornflowerblue;
+}
+.feature .img-box .status{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    padding: 5px 15px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 50%, 70% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 50%,70% 0);
+
+}
+.feature .img-box h1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 18px;
+    color: white;
+    padding: 15px;
+    background-image: linear-gradient(to top,black, rgba(0, 0, 0, 0.004));
+}
+.right-ads{
+    padding: 0;
+    
+}
+.right-ads ul{
+    height: 100%;
+}
+.right-ads ul li{
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+.right-ads ul li iframe{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.right-ads ul li img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.new-container{
+    margin-top: 10px;
+    padding-left: 0;
+}
+.drop-down-menu .category{
+    width: 100%;
+    float: left;
+    border-bottom: 3px solid pink;
+}
+.drop-down-menu .category h1{
+    background-color: pink;
+    color: white;
+    float: left;
+    font-size: 18px;
+    font-family: 'Bayon', sans-serif;
+    padding: 15px;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 50%, 70% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 50%,70% 0);
+}
+.drop-down-menu .tab-content{
+    background-color: white;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 1px 1px 5px 0 dimgray;
+}
+.drop-down-menu .box{
+    width: 49%;
+    height: 300px;
+    float: left;
+    background-color: #eee;
+}
+.drop-down-menu .box-1{
+   margin-left: 2%;
+}
+.drop-down-menu .box .img-box{
+    width: 100%;
+    height: 80%;
+    float: left;
+}
+.drop-down-menu .box .txt-box{
+    width: 100%;
+    height: 20%;
+    float: left;
+    padding: 5px 0;
+}
+.drop-down-menu .box-2{
+    width: 100%;
+    height: 160px;
+    float: left;
+    margin-top: 10px;
+
+}
+.drop-down-menu .box-2 .img-box{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.drop-down-menu .box-2 .txt-box{
+    width: 70%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+.drop-down-menu .box-2 .txt-box h1{
+    font-size: 16px;
+    font-family: "khmer os siemreap";
+   
+}
+.drop-down-menu-right{
+    margin-top: 10px;
+    overflow: hidden;
+}
+.drop-down-menu-right .post-Item{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.drop-down-menu-right .post-Item .img-box{
+    width: 40%;
+    height: 100%;
+    float: left;
+
+}
+.drop-down-menu-right .post-Item .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.drop-down-menu-right .post-Item .txt-box{
+    width: 60%;
+    margin-top: 10px;
+    height: 100%;
+    float: left;
+} 
+.drop-down-menu-right .post-Item .txt-box h1{
+    font-size: 16px;
+}
+.drop-down-menu-right  ul{
+    height: 500px;
+}
+.drop-down-menu-right  ul li{
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+.drop-down-menu-right ul li iframe{
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container{
+        max-width: 100%;
+    }
+	.logo img{
+        height: 75px;
+    }
+    .ads img{
+        height: 75px;
+        float: none;
+    }
+    .logo, .ads{
+        text-align: center;
+    }
+    .drop-down-menu .box{
+        width: 48%;
+        height: 250px;
+    }
+    .drop-down-menu .box .img-box{
+        width: 100%;
+        height: 70%;
+        float: left;
+    }
+    .drop-down-menu .box .txt-box{
+        width: 100%;
+        height: 30%;
+        float: left;
+        padding: 5px 0;
+    }
+    .drop-down-menu .tab-content{
+        margin-left: 4px;
+    }
+    .drop-down-menu .box-1{
+        margin-left: 4%;
+    }
+    .drop-down-menu .category h1, .drop-down-menu .category{
+        margin-left: 1px;
+        border-bottom: 3px solid pink;
+    }
+	
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container{
+        max-width: 100%;
+    }
+	.logo img{
+        height: 70px;
+    }
+    .ads img{
+        height: 70px;
+        float: none;
+    }
+    .logo, .ads{
+        text-align: center;
+    }
+    .menu-box ul li a{
+        display: block;
+        padding: 15px;
+        font-family: 'Bayon', sans-serif;
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+    }
+    .drop-down-menu .box{
+        width: 48%;
+        height: 250px;
+    }
+    .drop-down-menu .box .img-box{
+        width: 100%;
+        height: 60%;
+    }
+    .drop-down-menu .box .txt-box{
+        width: 100%;
+        height: 40%;
+    }
+    .drop-down-menu .category h1, .drop-down-menu .category{
+        margin-left: 1px;
+        border-bottom: 3px solid pink;
+    }
+    .drop-down-menu .tab-content{
+        margin-left: 4px;
+    }
+    .drop-down-menu .box-1{
+        margin-left: 4%;
+    }
+    .drop-down-menu .box-2{
+        width: 100%;
+        height: 250px;
+        padding: 0;
+
+    }
+    /* .drop-down-menu .box-right{
+        margin-left: 4%;
+    } */
+    .drop-down-menu .box-2 .img-box{
+        width: 100%;
+        height: 60%;
+    }
+    .drop-down-menu .box-2 .txt-box{
+        width: 100%;
+        height: 40%;
+    }
+    .drop-down-menu .box-2 .txt-box h1{
+        font-size: 16px;
+        margin-top: 10px;
+        font-family: "khmer os siemreap";
+        
+    }
+    .drop-down-menu .box-2 .txt-box p{
+       margin-top: 10px;
+       font-size: 13px;
+    }
+    
+	
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+	.slide-container{
+        max-width: 100%;
+    }
+    .feature{
+        max-width: 100%;
+    }
+	.logo img{
+        height: 60px;
+    }
+    .ads img{
+        width: 90%;
+        height: 60px;
+        float: none;
+    }
+    .logo, .ads{
+        text-align: center;
+    }
+    .menu-bar{
+        display: block;
+    }
+    .menu-box ul li:not(.menu-bar) {
+        display: none;
+    }
+    .feature{
+        height: 450px;
+        padding: 0;
+    }
+    .feature .mean-description, .feature .mean-description-right{
+        width: 50%;
+    }
+    .right-ads{
+        height: 250px;
+        margin-top: 20px;
+        padding: 0;
+    }
+    .right-ads ul li{
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    .drop-down-menu .box{
+        width: 48%;
+        height: 200px;
+    }
+    .drop-down-menu .box .img-box{
+        width: 100%;
+        height: 60%;
+    }
+    .drop-down-menu .box .txt-box{
+        width: 100%;
+        height: 40%;
+    }
+    .drop-down-menu .tab-content{
+        margin-left: 4px;
+    }
+    .drop-down-menu .box-1{
+        margin-left: 4%;
+    }
+    .drop-down-menu .category h1, .drop-down-menu .category{
+        margin-left: 1px;
+        border-bottom: 3px solid pink;
+    }
+    .drop-down-menu .box-2{
+        width: 48%;
+        height: 250px;
+        padding: 0;
+
+    }
+    .drop-down-menu .box-right{
+        margin-left: 4%;
+    }
+    .drop-down-menu .box-2 .img-box{
+        width: 100%;
+        height: 60%;
+    }
+    .drop-down-menu .box-2 .txt-box{
+        width: 100%;
+        height: 40%;
+    }
+    .drop-down-menu .box-2 .txt-box h1{
+        font-size: 16px;
+        font-family: "khmer os siemreap";
+        
+    }
+    .drop-down-menu .box-2 .txt-box p{
+        display: none;
+    }
+    
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /* .container{
+        max-width: 100%;
+    } */
+    .mean-description-right{
+        max-width: 100%;
+    }
+	.logo img{
+        height: 50px;
+    }
+    .ads img{
+        height: 50px;
+        float: none;
+    }
+    .logo, .ads{
+        text-align: center;
+    }
+    .menu-bar{
+        display: block;
+    }
+    .menu-box ul li:not(.menu-bar) {
+        display: none;
+    }
+    .feature{
+        padding: 0;
+        height: 300px;
+    }
+    .right-ads{
+        margin-top: 20px;
+        height: 150px ;
+        padding: 0;
+    }
+    .right-ads ul li{
+        width: 50%;
+        height: 100%;
+    }
+    .feature .mean-description, .feature .mean-description-right{
+        width: 50%;
+    }
+    .feature .img-box h1{
+        font-size: 13px;
+        font-weight: normal;
+        line-height: 18px
+    }
+    .drop-down-menu .box{
+        width: 48%;
+        height: 250px;
+    }
+    .drop-down-menu .box .img-box{
+        width: 100%;
+        height: 60%;
+    }
+    .drop-down-menu .box .txt-box{
+        width: 100%;
+        height: 40%;
+    }
+    .drop-down-menu .tab-content{
+        margin-left: 4px;
+    }
+    .drop-down-menu .box-1{
+        margin-left: 4%;
+    }
+    .drop-down-menu .category h1, .drop-down-menu .category{
+        margin-left: 1px;
+        border-bottom: 3px solid pink;
+    }
+    .drop-down-menu .box-2{
+        width: 48%;
+        height: 250px;
+        padding: 0;
+
+    }
+    .drop-down-menu .box-right{
+        margin-left: 4%;
+    }
+    .drop-down-menu .box-2 .img-box{
+        width: 100%;
+        height: 60%;
+    }
+    .drop-down-menu .box-2 .txt-box{
+        width: 100%;
+        height: 40%;
+    }
+    .drop-down-menu .box-2 .txt-box h1{
+        font-size: 16px;
+        font-family: "khmer os siemreap";
+        
+    }
+    .drop-down-menu .box-2 .txt-box p{
+        display: none;
+    }
+    .drop-down-menu-right .post-Item{
+        width: 48%;
+        height: 250px;
+        padding: 0;
+        margin-left: 2%;
+    }
+    .drop-down-menu-right .post-Item .img-box{
+        width:100%;
+        height: 60%;
+    
+    }
+    .drop-down-menu-right .post-Item .img-box img{
+        width: 100%;
+        height: 100%;
+    }
+    .drop-down-menu-right .post-Item .txt-box{
+        width: 100%;
+        margin-top: 10px;
+        height: 40%;
+    } 
+    .drop-down-menu-right  ul{
+        width: 99%;
+        height: 200px;
+        margin-left: 2%;
+    }
+    .drop-down-menu-right  ul li{
+        width: 100%;
+        height: 50%;
+    }
+    .drop-down-menu-right ul li iframe{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
